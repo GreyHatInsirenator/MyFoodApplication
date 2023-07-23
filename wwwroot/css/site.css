@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+.text-green {
+    color: lightseagreen !important;
+}
+
+.nav-link {
+    letter-spacing: 2px;
+}
+
+#carouselExampleSlidesOnly {
+    height: 400px;
+}
+
+footer{
+    background-color: #0d243d;
+}
+
+header{
+    z-index: 1000;
+}
+
+.dishCard{
+    height: 250px;
+}
+
+.fa-whatsapp {
+    color: #5ffc7b;
+}
+.fa-instagram {
+    color: #bc2a8d;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-envelope {
+    color: #bb001b;
+}
+
+#recipe-list {
+    top: 5rem;
+}
+#recipe-list::-webkit-scrollbar{
+    width: 10px;
+}
+    #recipe-list::-webkit-scrollbar-track{
+        background-color: #ffffff;
+    }
+    #recipe-list::-webkit-scrollbar-thumb{
+        background-color: lightseagreen;
+        border-radius: 10px;
+    }
+
+.recipe-item:hover {
+    background-color: #0d243d;
+    border-radius: 10px;
+}
+.recipe-item:hover a{
+    color: #ffffff !important;
+}
+
+
+/*.mt-3 {
+    font-size: 11px; 
+}*/
